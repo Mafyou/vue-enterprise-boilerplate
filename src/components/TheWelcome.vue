@@ -10,7 +10,10 @@ import SupportIcon from './icons/IconSupport.vue'
 <template>
   <WelcomeItem>
     <template #icon>
+      <div style="float: right;z-index: 42;">
+        <p style="color:red;">Yooooooo</p>
       <DocumentationIcon />
+    </div>
     </template>
     <template #heading>Documentation</template>
 
