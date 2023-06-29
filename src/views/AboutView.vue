@@ -124,6 +124,7 @@ const el = document.getElementById("bg");
       cube.rotation.y -= 0.01;
     else
       cube.rotation.y += 0.01;
+
     if (y > newY)
       cube.rotation.x -= 0.01;
     else
